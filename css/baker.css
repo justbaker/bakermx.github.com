@@ -1,12 +1,12 @@
 
   body{
-    background: url(tweed.png) #EEE;
+    background: url(../tweed.png) #EEE;
     border-top: 2px solid #EE0000;
     font: 24px 'Source Sans Pro', sans-serif;
   }
   header{
     text-align: center;
-    background: url(retina_wood.png);
+    background: url(../retina_wood.png);
     margin:0 auto;
     padding: 25px 0 50px;
     border-top: 1px solid #F00;
