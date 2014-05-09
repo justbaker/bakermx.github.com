@@ -2,7 +2,7 @@
   body{
     background: url(../tweed.png) #EEE;
     border-top: 2px solid #EE0000;
-    font: 24px 'Source Sans Pro', sans-serif;
+    font: 24px 'Roboto Condensed', sans-serif;
   }
   header{
     text-align: center;
@@ -20,9 +20,9 @@
     width:600px;
   }
   section#main{
-    text-align: center;
+    min-height:400px;
     margin:0 auto;
-    padding:100px 20px;
+    padding:50px 20px;
     border-bottom: 5px solid #333;
     background: #FFF;
   }
@@ -41,7 +41,6 @@
     border-radius: 3px;
     margin:10px 0;
     line-height:1.5em;
-    font-family: Metrophobic, sans-serif;
     color:#333;
     text-shadow:1px 1px 2px rgba(0,0,0,0.1),-1px 1px 2px rgba(0,0,0,0.1),1px -1px 2px rgba(0,0,0,0.1),-1px -1px 2px rgba(0,0,0,0.1);
     font-weight: bold;
@@ -51,25 +50,20 @@
     width: 960px;
     line-height:1.5em;
     text-align: center;
-    font-size: 32px;
+    font-size:36px;
+    font-weight:bold;
     color:#FFF;
-    padding: 10px;
-    font-weight: bold;
-    background: rgba(0,0,0,0.05);
-    border-radius: 3px;
-    text-shadow:1px 1px 2px rgba(0,0,0,0.5),-1px 1px 2px rgba(0,0,0,0.5),1px -1px 2px rgba(0,0,0,0.5),-1px -1px 2px rgba(0,0,0,0.5);
+    text-shadow:1px 1px 2px rgba(0,0,0,0.75),-1px 1px 2px rgba(0,0,0,0.75),1px -1px 2px rgba(0,0,0,0.75),-1px -1px 2px rgba(0,0,0,0.75);
   }
-  span.rider-name,span.license{
+   h2{
+     font-size:24px; 
+   } 
+ span.rider-name{
     color:#FFF;
     padding: 3px;
-  }
-  span.rider-name{
+    border:1px solid #000;
     background: #222;
-    border-radius: 5px 0 0 5px;
-  }
-  span.license{
-    border-radius: 0 5px 5px 0;
-    background: #777;
+    border-radius: 5px;
   }
   #notice{
     background: #000;
